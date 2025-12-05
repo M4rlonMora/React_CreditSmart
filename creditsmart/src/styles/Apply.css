@@ -1,0 +1,8 @@
+*{ box-sizing:border-box; }
+.container{ padding:30px 15px; max-width:1100px; margin:0 auto; }
+header{ text-align:center; margin:10px 0 20px; }
+.card{ background:white; padding:30px; border-radius:14px; box-shadow:0 4px 10px rgba(0,0,0,0.10); display:flex; flex-direction:column; gap:12px; max-width:520px; margin:0 auto; }
+label{ font-weight:bold; }
+input, select{ padding:12px; border:1px solid #bfd7ff; border-radius:10px; background:#f8fbff; }
+button{ margin-top:10px; padding:14px; background:#FF7800; border:none; color:white; font-size:17px; border-radius:10px; cursor:pointer; }
+button:hover{ background:#005fcc; }

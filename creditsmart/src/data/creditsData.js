@@ -1,0 +1,55 @@
+// Data file containing credit information
+const credits = [
+  {
+    id: 1,
+    name: "Crédito de libre inversión",
+    description: "Dinero más rápido",
+    minAmount: 1000000,
+    maxAmount: 30000000,
+    interestRate: 1.8,
+    maxTerm: 60,
+    icon: "/img/libreinversion.png",
+  },
+  {
+    id: 2,
+    name: "Crédito Vehículo",
+    description: "Compra tu vehículo",
+    minAmount: 10000000,
+    maxAmount: 80000000,
+    interestRate: 1.5,
+    maxTerm: 84,
+    icon: "/img/vehiculo.png",
+  },
+  {
+    id: 3,
+    name: "Crédito Vivienda",
+    description: "Compra tu casa",
+    minAmount: 20000000,
+    maxAmount: 500000000,
+    interestRate: 0.9,
+    maxTerm: 240,
+    icon: "/img/vivienda.png",
+  },
+  {
+    id: 4,
+    name: "Crédito Educativo",
+    description: "Para tus estudios",
+    minAmount: 2000000,
+    maxAmount: 40000000,
+    interestRate: 1.2,
+    maxTerm: 72,
+    icon: "/img/educativo.png",
+  },
+  {
+    id: 5,
+    name: "Crédito Empresarial",
+    description: "Para tu negocio",
+    minAmount: 500000,
+    maxAmount: 30000000,
+    interestRate: 1.6,
+    maxTerm: 120,
+    icon: "/img/empresa.png",
+  },
+];
+
+export default credits;

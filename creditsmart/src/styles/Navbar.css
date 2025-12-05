@@ -1,0 +1,16 @@
+.nav{
+    width:100%;
+    max-width:1100px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#0057c2;
+    padding:15px 25px;
+    border-bottom-left-radius:12px;
+    border-bottom-right-radius:12px;
+    margin: 0 auto 20px auto;
+}
+.nav .logo{ font-size:22px; color:white; font-weight:bold; }
+.nav ul{ list-style:none; display:flex; gap:20px; }
+.nav a{ color:white; text-decoration:none; font-weight:bold; padding:8px 12px; border-radius:8px; }
+.nav a.active, .nav a:hover { background:white; color:#0057c2; }

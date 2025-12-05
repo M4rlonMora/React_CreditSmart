@@ -1,0 +1,167 @@
+/* ------------------------ */
+/* CONTENEDOR GENERAL       */
+/* ------------------------ */
+
+.sim-wrapper {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+
+/* ------------------------ */
+/* SECCIÓN SUPERIOR (FORM + RESULTADO) */
+/* ------------------------ */
+
+.sim-top {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+/* Tarjeta formulario */
+.sim-form-card {
+  flex: 1;
+  min-width: 320px;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 18px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+}
+
+.sim-form-card h1 {
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+.sim-sub {
+  font-size: 15px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Inputs */
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 14px;
+}
+
+.input-group label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #444;
+}
+
+.input-group input,
+.input-group select {
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+}
+
+.btn-sim {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #007bff, #0056d6);
+  color: white;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn-sim:hover {
+  transform: scale(1.03);
+  background: linear-gradient(135deg, #006fee, #004ec2);
+}
+
+/* Tarjeta resultado */
+.sim-result-card {
+  flex: 0.8;
+  min-width: 300px;
+  background: rgba(255,255,255,0.6);
+  backdrop-filter: blur(12px);
+  padding: 25px;
+  border-radius: 18px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.sim-result-card h2 {
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.sim-cuota {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+
+.sim-info {
+  font-size: 14px;
+  color: #444;
+}
+
+.sim-placeholder {
+  font-size: 15px;
+  color: #777;
+}
+
+
+/* ------------------------ */
+/* TARJETAS DE PROGRAMAS   */
+/* ------------------------ */
+
+.title-programas {
+  font-size: 26px;
+  margin-left: 5px;
+}
+
+.sim-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 22px;
+}
+
+.credit-card {
+  background: white;
+  padding: 20px;
+  border-radius: 18px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+  transition: 0.3s;
+}
+
+.credit-card:hover {
+  transform: translateY(-6px);
+}
+
+.credit-icon {
+  width: 60px;
+  margin-bottom: 10px;
+}
+
+.credit-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.credit-info p {
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.credit-info span {
+  font-weight: 700;
+  color: #007bff;
+}
+
